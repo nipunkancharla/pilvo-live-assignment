@@ -1,0 +1,21 @@
+## Latency:
+
+Latency (batch_size=1) on cpu:
+p50: 7.54 ms
+p95: 10.31 ms
+
+## Per-entity metrics:
+
+Per-entity metrics:
+CITY P=1.000 R=1.000 F1=1.000
+CREDIT_CARD P=1.000 R=1.000 F1=1.000
+DATE P=1.000 R=1.000 F1=1.000
+EMAIL P=1.000 R=1.000 F1=1.000
+LOCATION P=1.000 R=1.000 F1=1.000
+PERSON_NAME P=1.000 R=1.000 F1=1.000
+PHONE P=1.000 R=1.000 F1=1.000
+
+Macro-F1: 1.000
+
+PII-only metrics: P=1.000 R=1.000 F1=1.000
+Non-PII metrics: P=1.000 R=1.000 F1=1.000
