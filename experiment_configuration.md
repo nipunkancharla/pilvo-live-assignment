@@ -2,9 +2,9 @@
 
 ## 1. Model Architecture
 
-- **Base Model:** `prajjwal1/bert-small`
-- **Tokenizer:** `AutoTokenizer` (from `prajjwal1/bert-small`)
-- **Reason for Choice:** \* Initial experiments with `distilbert-base-uncased` yielded ~45ms CPU latency, violating the 20ms constraint.
+- **Base Model:** `prajjwal1/bert-mini`
+- **Tokenizer:** `AutoTokenizer` (from `prajjwal1/bert-mini`)
+- **Reason for Choice:** \* Initial experiments with `distilbert-base-uncased` yielded ~80ms CPU latency, violating the 20ms constraint.
   - `bert-mini` (4 layers, 256 hidden) provided the optimal trade-off, achieving ~12ms latency with strong PII precision (>0.90).
 
 ## 2. Training Hyperparameters
